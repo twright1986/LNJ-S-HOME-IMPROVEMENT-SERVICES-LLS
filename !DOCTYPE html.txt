@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SolidBuild Construction</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>SolidBuild Construction</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Building Your Future with Strength</h2>
+      <p>Reliable. Professional. Experienced.</p>
+      <a href="#contact" class="btn">Get a Free Quote</a>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>SolidBuild Construction has over 20 years of experience delivering top-quality commercial and residential construction projects.</p>
+    </div>
+  </section>
+
+  <section id="services" class="section">
+    <div class="container">
+      <h2>Our Services</h2>
+      <ul class="services">
+        <li><strong>General Contracting</strong></li>
+        <li><strong>Residential Construction</strong></li>
+        <li><strong>Commercial Builds</strong></li>
+        <li><strong>Renovations & Remodeling</strong></li>
+        <li><strong>Design & Build</strong></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Recent Projects</h2>
+      <div class="project-grid">
+        <div class="project">Modern Home</div>
+        <div class="project">Office Complex</div>
+        <div class="project">Retail Space</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="section">
+    <div class="container">
+      <h2>What Our Clients Say</h2>
+      <blockquote>
+        “They completed our home on time and exceeded our expectations. Highly recommend!”
+        <cite>– Jane D., Homeowner</cite>
+      </blockquote>
+      <blockquote>
+        “Professional team with a solid work ethic. Quality craftsmanship at every step.”
+        <cite>– Mike R., Business Owner</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Name" required />
+        <input type="email" placeholder="Email" required />
+        <textarea placeholder="How can we help you?" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 SolidBuild Construction. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
